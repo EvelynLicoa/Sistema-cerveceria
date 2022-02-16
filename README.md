@@ -10,38 +10,15 @@
 - Editor de código (Visual Studio Code)
 
 # Guía de Instalación
-1. Primero importe la base de datos que se encuentra en el archivo cervecería.sql
-2. Modificar los datos de la conexión Php
+1. Primero clone el repositorio o descargue el proyecto y comprimalo en el htdocs del Xampp
+2. Después abra el localhost/phpmyadmin/
+3. Cree la base de datos y llamela "cerveceria"
+4. Después importe el archivo cerveceria.sql en la base de datos. El archivo se encuentra también en el repositorio
+5. Por último debe modificar los datos de las conexiones en cada uno de los módulos. **PERO SI SU INFORMACIÓN DE LA BASE DE DATOS ES EL USUARI0:ROOT Y LA CONTRASEÑA VACÍA NO DEBERÁ MODIFICAR NADA**
+6. Después de eso podrá ejecutar cada una de las funciones.
+
+# Limitantes:
+El proyecto no pudo ser desplegado en ningún servidor o hosting gratutio. Tuvimos muchos incovenientes con la conexión a la base de datos. Por cuestiones de tiempo no pudimos seguir intentando el despliegue por lo cual hemos detallado una guía estructurada de la instalación paso a paso. En el informe se adjuntará el manual de usuario para el sistema, más evidencias de las limitantes. 
 
 
-# Screenshots:
 
-![4](https://user-images.githubusercontent.com/79773876/116773909-09d3ea80-aa2f-11eb-9ab1-bcd06c7ee1ab.png)
-
-![1](https://user-images.githubusercontent.com/79773876/116773905-08a2bd80-aa2f-11eb-92e4-443fea574f56.png)
-
-![2](https://user-images.githubusercontent.com/79773876/116773906-093b5400-aa2f-11eb-9ff3-01999008fc63.png)
-
-![5](https://user-images.githubusercontent.com/79773876/116773910-09d3ea80-aa2f-11eb-8bf9-70bca8b0b42b.png)
-
-![6](https://user-images.githubusercontent.com/79773876/116773911-0a6c8100-aa2f-11eb-820f-71bf5fc65057.png)
-
-![7](https://user-images.githubusercontent.com/79773876/116773891-0476a000-aa2f-11eb-86e2-50d7e5d0a542.png)
-
-![8](https://user-images.githubusercontent.com/79773876/116773893-05a7cd00-aa2f-11eb-9908-ad5fecebf047.png)
-
-![9](https://user-images.githubusercontent.com/79773876/116773894-06406380-aa2f-11eb-990a-7aff15290cc2.png)
-
-![10](https://user-images.githubusercontent.com/79773876/116773895-06406380-aa2f-11eb-8e3f-4a0e9eb1eff3.png)
-
-![11](https://user-images.githubusercontent.com/79773876/116773896-06d8fa00-aa2f-11eb-84a8-c59b608263c5.png)
-
-![12](https://user-images.githubusercontent.com/79773876/116773898-06d8fa00-aa2f-11eb-9930-a3c6d84ff209.png)
-
-![13](https://user-images.githubusercontent.com/79773876/116773899-06d8fa00-aa2f-11eb-8c9a-797367e030b5.png)
-
-![14](https://user-images.githubusercontent.com/79773876/116773901-07719080-aa2f-11eb-8aed-73bca279c3b5.png)
-
-![15](https://user-images.githubusercontent.com/79773876/116773903-080a2700-aa2f-11eb-9528-fe9bf6cd66c4.png)
-
-![16](https://user-images.githubusercontent.com/79773876/116773904-080a2700-aa2f-11eb-96f5-424e529dddff.png)
