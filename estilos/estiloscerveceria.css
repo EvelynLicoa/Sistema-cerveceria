@@ -1,0 +1,205 @@
+
+
+
+.FondoCerveza{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/cerveza2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainMadera{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* background: url(../imagenes/mainMadera.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica Neue; 
+}
+
+/*titulo*/
+
+div#titulo{
+	width:100%;
+	margin-top:100px;
+}
+
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:#9a9a9a;
+}
+
+p#subheader{
+	text-align: center;
+	color:#cecece;
+	margin-top:20px;
+	font-size: 1.3em;
+}
+
+header{
+	margin:100px auto;
+	width:800px;
+	height:230px;
+	background-color: red;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+div#siete{
+	background-color: rgb(57, 57, 58);
+}
+
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 30%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+
+
+.mainBody{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/naturaleza.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#headerCont{
+    position: absolute;
+    top:0px;
+    bottom:0;
+    right:10px;
+    padding: 10px;
+    /*left:970px;*/
+    /*left: 550px;*/
+    margin: auto; 
+    /*width: 500px;*/
+    font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+}
+
+
+li{
+    list-style: none; 
+}
+
+
+.logoContornoWhite{
+    width: 250px;
+    height: 100px;
+    background: #6fa2f2;
+    position: relative;  
+}
+
+.logo{
+    /*padding: 15px;*/
+    position: absolute;
+    top:5px;
+    bottom:0;
+    right:0;
+    left: 5px;
+    width: 240px;
+    height: 90px;
+    background: url(../imagenes/imagen.jpg);
+    /*margin: 0;*/
+    background-size:270px 90px;
+    background-attachment: fixed;
+	color: #ffffff; 
+	font-weight:bold;
+}
+
+
+.nombreEmpresa{
+    position: absolute;
+    top:5px;
+    left: 5px;
+    font-size: 20px;
+    
+}
+
+/*-------------*/
+
+#spanBlack{
+    background-color: #000000; 
+    color: white; 
+    font-weight:bold;
+}
+
+.img-logo{
+    width: 100px;
+    height: 50px;
+}
+
+.navegacion{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+

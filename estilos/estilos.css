@@ -1,0 +1,610 @@
+
+.FondoNegro{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/cervezaNegra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.generalBody {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.mainBody{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* background: url(../imagenes/naturaleza.jpg); */
+    background-color: #f8f8f8;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.filas-all{
+    padding: 25px 15px;
+}
+
+.whiteBody{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/white.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.logoContorno{
+    width: 250px;
+    height: 100px;
+    background: #ffffff;
+    position: relative;  
+}
+
+.logoContornoWhite{
+    width: 250px;
+    height: 100px;
+    background: #6fa2f2;
+    position: relative;  
+}
+
+.logo{
+    /*padding: 15px;*/
+    position: absolute;
+    top:5px;
+    bottom:0;
+    right:0;
+    left: 5px;
+    width: 240px;
+    height: 90px;
+    background: url(../imagenes/imagen.jpg);
+    /*margin: 0;*/
+    background-size:270px 90px;
+    background-attachment: fixed;
+    color: #ffffff; 
+}
+
+
+.nombreEmpresa{
+    position: absolute;
+    top:5px;
+    left: 5px;
+    font-size: 20px;
+    
+}
+
+/*div*/
+#header{
+    position: absolute;
+    top:0px;
+    bottom:0;
+    right:10px;
+    padding: 10px;
+    /*left:970px;*/
+    /*left: 550px;*/
+    margin: auto; 
+    /*width: 500px;*/
+    font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+}
+
+ul {
+    list-style: none; 
+}
+
+.a{
+    text-decoration: none;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1a1010;
+}
+
+/* 
+.nav li a{
+    background-color: #010103; 
+    color: #fff;
+    text-decoration: none; 
+    padding: 15px 10px; 
+    display:block; 
+} */
+
+.nav li a:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #1a1010;
+    color: black;
+}
+
+/* .nav li a:active{
+  background-color: #1a1010;
+  box-shadow: none; 
+
+} */
+
+.nav > li{
+    float:left; 
+}
+
+
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+
+
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+/*h1, h2{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}*/
+
+
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+h3{
+    text-align: center;
+    color: #1a2537;
+    font-size: 20px;
+}
+
+
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+
+
+/**** BOTONES ****************************************************/
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+
+
+/*************************************************************/
+
+
+p{
+    text-align: center;
+}
+.referencia{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.referencia:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+/**********************************************************************************/
+/**********************************************************************************/
+
+body{
+    background-color: white; 
+    font-family: 'Poppins'; 
+    font-weight:bold;
+
+}
+
+.container{
+    /* background-color: rgb(255, 255, 255);  */
+    color: black;
+}
+
+
+table{
+    background-color: rgb(184, 211, 218);
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(67, 46, 100); 
+    border-bottom: solid 5px #000;
+    color: rgb(255, 255, 255)
+}
+
+/* tr:nth-child(even){
+    background-color: #ddd; 
+} */
+
+
+/* #ocultar{
+    display: none;
+} */
+
+.activeColour{
+    background-color: rgb(153, 159, 168)
+}
+/* 
+NO SE POQUE ACA NO SE DA!!! */ 
+.myhover>tbody>tr:hover {
+    background-color: #ff0
+}
+
+
+.tableCeleste{
+    background-color: rgb(184, 211, 218);
+}
+
+.colorOcult{
+    float: left;
+    background-color: rgb(184, 211, 218);
+   
+}
+
+
+
+
+.classext{
+  
+    background-color: #fff;
+   
+}
+
+.contenedor-trazabilidad{
+    background-color: #f8f8f8;
+}
+
+
+.classTable{
+    background-color: rgb(0, 0, 0);
+}
+
+.classGray{
+    margin: auto; 
+    font-family: Arial, Helvetica, sans-serif; 
+    float: right;
+}
+
+.inpSeat{
+    background-color: rgb(209, 230, 205);
+    color: rgb(0, 0, 0);
+    text-decoration: underline rgb(105, 104, 104); 
+    float: right;
+   
+}
+
+.colorTot{
+    background-color: rgb(87, 218, 36);
+}
+
+.colorDif{
+    background-color: rgb(245, 12, 12);
+    color: #fff;
+}
+
+.inpResultTotales{
+    background-color: rgb(166, 253, 108); 
+}
+
+
+.inpResulDiferencia{
+    background-color: rgb(245, 158, 158);
+}
+
+.inpWhite{
+    background-color: rgb(248, 246, 246);
+}
+
+.inpGreen{
+    background-color: rgb(175, 247, 173);
+}
+
+.inpColDisabled{
+    background-color: rgb(189, 185, 185);
+}
+
+.containerExt {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 7px 5px #00000050,
+                -3px 0 5px #00000050;
+    margin-top: 30px;
+
+}
+
+  .containerInt {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+
+
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    cursor: pointer;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+
+  .myhover{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.myhover:hover{
+        background: rgb(208, 215, 219);
+        text-decoration: none; 
+        /* font-size:15px; */
+        color:#100;
+        
+}
+
+
+.myhover:active{
+    text-decoration: none; 
+    background: rgb(185, 194, 199);
+}
+
+.mya{
+    text-decoration: none;
+    
+}
+
+.dateTimePiker{
+    background-color: rgb(189, 211, 198);
+}
+
+
+.bodyBlack{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.bodyGray{
+    background-color: rgb(181, 196, 186);
+}
+
+
+
+.labelWhite{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    font-size: x-large; 
+    text-decoration: underline; 
+}
+
+
+.h2PDC{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: x-large; 
+}
+
+
+.rowPink{
+    background-color: rgb(233, 199, 219);
+}
+
+.h1White{
+    color: white; 
+}
+
+
+.contableBody{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../imagenes/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.classBlue{
+    background-color: rgb(53, 167, 243); 
+}
+
+.letraWhite{
+    color: rgb(255, 255, 255); 
+}
+
+
+#spanGreen{
+    background-color: #58ca67; 
+    color: white; 
+    font-weight:bold;
+}
+
+#spanBlack{
+    background-color: #000000; 
+    color: white; 
+    font-weight:bold;
+}
+
+.tdContable{
+    background-color: rgb(0, 0, 0);
+}
+
+.tdContable:hover{
+    color: #ffffff; 
+}
+
+
+.divWhite{
+    color: #ffffff; 
+}
+
+.fondoNegro{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.fondoGris{
+    background-color: #bfbfbf;
+}
+
+
+
+.cuatro{
+    background-color: #f9f754;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.seis{
+    background-color: #f7f514;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.ocho{
+    background-color: #ede61a;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.doce{
+    background-color: #d5bb26;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+
+.dieciseis{
+    background-color: #c0923c;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.veinte{
+    background-color: #bf7f38;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+.veintiseis{
+    background-color: #bc6633;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.treintaytres{
+    background-color: #8d4b31;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.treintaynueve{
+    background-color: #5d331a;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.cuarentaysiete{
+    background-color: #261616;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.cincuentaysiete{
+    background-color: #0f0b0a;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.sesentaynueva{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.setentaynueve{
+    background-color: #0f0b0a;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    color: white; 
+}
+
+.classColor{
+    background-color: #ffffff;
+}
+
+#widthModal{
+   width: 1500px;
+   height: 1000px;
+   position: relative;  
+}
